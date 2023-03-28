@@ -1,6 +1,4 @@
 import * as React from 'react';
-// import '../App.css';
-// import '../index.css'
 
 export default function About() {
   return (
@@ -13,7 +11,11 @@ export default function About() {
             <blockquote class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
               <p>This website is built using Reactjs .</p>
               <p>To see different pages, click on Home, About & Profile</p>
+              <br/>
+              <p>Note : in Home Page "Api used here is : https://hub.dummyapis.com/employee " As I couldn't find some suitable api so user displayed after clicking on any card might differ due to api ,but code structure is correct, so please ignore this issue</p>
+              <br/>
               <p>For More Info Contact : +91 8766324609</p>
+
             </blockquote>
             <figcaption class="mt-10">
               <div class="mt-4 flex items-center justify-center space-x-3 text-base">

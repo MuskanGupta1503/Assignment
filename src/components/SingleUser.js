@@ -1,4 +1,3 @@
-// import * as React from 'react';
 import {useParams} from "react-router-dom";
 import React, { useEffect, useState } from "react"
 
@@ -60,9 +59,7 @@ export default function SingleUser() {
                                 <img src="https://avatars0.githubusercontent.com/u/35900628?v=4" alt="" class="rounded-full h-6 shadow-md inline-block mr-2"/>
                                 <span class="font-bold">Address : </span>
                                 <span class="text-gray-500 text-xs">{user.address}</span>
-                            </a>
-
-                            
+                            </a>                            
                         </div>
                     </div>
                 </div>
