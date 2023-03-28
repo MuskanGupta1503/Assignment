@@ -12,21 +12,21 @@ export default function Profile() {
             <div class="w-full md:w-3/12 md:mx-2">
                 {/* <!-- Profile Card --> */}
                 <div class="bg-white p-3 border-t-4 border-green-400">
-                    <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">Jane Doe</h1>
-                    <h3 class="text-gray-600 font-lg text-semibold leading-6">Owner at Her Company Inc.</h3>
-                    <p class="text-sm text-gray-500 hover:text-gray-600 leading-6">Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.
-                        Reprehenderit, eligendi dolorum sequi illum qui unde aspernatur non deserunt</p>
+                    <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">Muskan Gupta</h1>
+                    <p class="text-sm text-gray-500 hover:text-gray-600 leading-6">Hey I am Muskan Gupta, who has spend a lot of time exploring web development (Django, MERN ), machine learning and competitive programming. </p>
                     <ul
                         class="bg-gray-100 text-gray-600 hover:text-gray-700 hover:shadow py-2 px-3 mt-3 divide-y rounded shadow-sm">
                         <li class="flex items-center py-3">
-                            <span>Status</span>
-                            <span class="ml-auto"><span
-                                    class="bg-green-500 py-1 px-2 rounded text-white text-sm">Active</span></span>
+                            <span>Linkedin</span>
+                            <span class="ml-auto">
+                                <a href="https://www.linkedin.com/in/muskangupta1503/" class="bg-green-500 py-1 px-2 rounded text-white text-sm">Click here</a>
+                            </span>
                         </li>
                         <li class="flex items-center py-3">
-                            <span>Member since</span>
-                            <span class="ml-auto">Nov 07, 2016</span>
+                            <span>Github</span>
+                            <span class="ml-auto">
+                                <a href="http://github.com/MuskanGupta1503" class="bg-green-500 py-1 px-2 rounded text-white text-sm">Click here</a>
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -52,11 +52,11 @@ export default function Profile() {
                         <div class="grid md:grid-cols-2 text-sm">
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">First Name</div>
-                                <div class="px-4 py-2">Jane</div>
+                                <div class="px-4 py-2">Muskan</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">Last Name</div>
-                                <div class="px-4 py-2">Doe</div>
+                                <div class="px-4 py-2">Gupta</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">Gender</div>
@@ -64,31 +64,28 @@ export default function Profile() {
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">Contact No.</div>
-                                <div class="px-4 py-2">+11 998001001</div>
+                                <div class="px-4 py-2">+91 8766324609</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">Current Address</div>
-                                <div class="px-4 py-2">Beech Creek, PA, Pennsylvania</div>
+                                <div class="px-4 py-2">I.P. Extension, Patpar Ganj, Delhi, India</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">Permanant Address</div>
-                                <div class="px-4 py-2">Arlington Heights, IL, Illinois</div>
+                                <div class="px-4 py-2">I.P. Extension, Patpar Ganj, Delhi, India</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">Email.</div>
                                 <div class="px-4 py-2">
-                                    <a class="text-blue-800" href="mailto:jane@example.com">jane@example.com</a>
+                                    <a class="text-blue-800" href="mailto:gupta.muskan1503@example.com">gupta.muskan1503@example.com</a>
                                 </div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-semibold">Birthday</div>
-                                <div class="px-4 py-2">Feb 06, 1998</div>
+                                <div class="px-4 py-2">March 15, 2000</div>
                             </div>
                         </div>
                     </div>
-                    <button
-                        class="block w-full text-blue-800 text-sm font-semibold rounded-lg hover:bg-gray-100 focus:outline-none focus:shadow-outline focus:bg-gray-100 hover:shadow-xs p-3 my-4">Show
-                        Full Information</button>
                 </div>
                 {/* <!-- End of about section --> */}
 
@@ -111,21 +108,15 @@ export default function Profile() {
                             </div>
                             <ul class="list-inside space-y-2">
                                 <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
+                                    <div class="text-teal-600">Software Engineering Intern at Google</div>
+                                    <div class="text-gray-500 text-xs">May 2022 - July 2022</div>
                                 </li>
                                 <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
+                                    <div class="text-teal-600">STEP Intern at Google</div>
+                                    <div class="text-gray-500 text-xs">May 2021 - July 2021</div>
                                 </li>
-                                <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
-                                </li>
-                                <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
-                                </li>
+                               
+                            
                             </ul>
                         </div>
                         <div>
@@ -143,13 +134,11 @@ export default function Profile() {
                                 <span class="tracking-wide">Education</span>
                             </div>
                             <ul class="list-inside space-y-2">
+                                
                                 <li>
-                                    <div class="text-teal-600">Masters Degree in Oxford</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
-                                </li>
-                                <li>
-                                    <div class="text-teal-600">Bachelors Degreen in LPU</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
+                                    <div class="text-teal-600">Bachelors Degree from Delhi College of Engineering</div>
+                                    <div class="text-gray-500 text-xs">Software Engineering</div>
+                                    <div class="text-gray-500 text-xs">August 2019 - Now</div>
                                 </li>
                             </ul>
                         </div>
